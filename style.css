@@ -56,18 +56,35 @@ ul {
 .nav-right {
   float: right; 
  margin-right: 20px;
- 
+
+}
+.prof img {
+  width: 35px;
+  border-radius: 50%;
 }
 .nav-left {
   display: inline;
   margin-left: 20px
 }
+footer {
+  background: #f2f2f2;
+  margin-top: 188px;
+  border-top: 1px solid rgba(0, 0, 0, 0.068);
+  color: rgb(107, 106, 106);
+}
 
+footer ul a:visited {
+  color:  rgb(107, 106, 106);
+}
   ul a:visited {
     color: #222222;
   }
-
-
+  .squared-icon {
+    margin-bottom: 30px;
+  }
+.squared-icon img {
+  width: 20px;
+}
 ul a:hover {
   text-decoration-line: underline;
 }
